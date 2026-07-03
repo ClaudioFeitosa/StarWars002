@@ -38,5 +38,26 @@
       "output_tokens": 0
     },
     "artifact_group_id": "f4258a42-5442-43b2-93f1-136a87231987"
+  },
+  {
+    "execution_id": "62a3f260-1904-449e-8d4e-809840db9e6b",
+    "step_id": "backlog-epic-generation",
+    "version_sequence": 1,
+    "session_name": "product-definition0010307",
+    "capability_name": "product-definition",
+    "started_at": "2026-07-03T19:04:19.283Z",
+    "completed_at": "2026-07-03T19:18:00.560Z",
+    "duration_seconds": 821,
+    "status": "Success",
+    "request_type": "Generation",
+    "executor": "coda-batch",
+    "run_id": "1783105459283-cd83w0l5",
+    "model": "globant_dgx/GLM-4.6",
+    "token_usage": {
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    "items_spawned": 2,
+    "artifact_group_id": "4a07ad03-4b0c-4f43-bc5b-c0e0f1e754d6"
   }
 ]

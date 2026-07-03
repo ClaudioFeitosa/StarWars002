@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "artifact_group_id": "4a07ad03-4b0c-4f43-bc5b-c0e0f1e754d6",
+    "parent_artifact_group_id": "f4258a42-5442-43b2-93f1-136a87231987",
+    "artifact_category": "Deliverable",
+    "artifact_type": "EPICS-AUDIT-EPICS-STARWARSLEGO-PRODUCTDEFINITION-20260703",
+    "artifact_name": "artifacts\\outputs\\product-definition\\epics\\EPICS-AUDIT-EPICS-STARWARSLEGO-PRODUCTDEFINITION-20260703.md",
+    "current_version": 1,
+    "status": "Draft",
+    "created_at": "2026-07-03T19:18:00.592Z",
+    "updated_at": "2026-07-03T19:18:00.592Z",
+    "step_id": "backlog-epic-generation",
+    "session_name": "product-definition0010307",
+    "capability_name": "product-definition"
+  },
+  {
+    "artifact_group_id": "4a07ad03-4b0c-4f43-bc5b-c0e0f1e754d6",
+    "parent_artifact_group_id": "f4258a42-5442-43b2-93f1-136a87231987",
+    "artifact_category": "Deliverable",
+    "artifact_type": "EPICS-SPEC-EPICS-STARWARSLEGO-PRODUCTDEFINITION-20260703",
+    "artifact_name": "artifacts\\outputs\\product-definition\\epics\\EPICS-SPEC-EPICS-STARWARSLEGO-PRODUCTDEFINITION-20260703.md",
+    "current_version": 1,
+    "status": "Draft",
+    "created_at": "2026-07-03T19:18:00.608Z",
+    "updated_at": "2026-07-03T19:18:00.608Z",
+    "step_id": "backlog-epic-generation",
+    "session_name": "product-definition0010307",
+    "capability_name": "product-definition"
+  }
+]
