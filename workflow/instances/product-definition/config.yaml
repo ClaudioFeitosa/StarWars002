@@ -1,0 +1,15 @@
+capability: product-definition
+version: 1.1.0
+parameters:
+  project_brief: project-brief.md
+  project_name: Projeto Star Wars Lego
+  input_folder: ./artifacts/inputs
+  output_folder: ./artifacts/outputs/product-definition
+  meeting_recording: meetings
+  transcript_output: transcripts
+  prd_template: prd_template.md
+  legacy_docs_path: ./artifacts/outputs/legacy-insights
+  epics_output_path: ./artifacts/outputs/product-definition/epics
+  prd_output_path: ./artifacts/outputs/product-definition/prd
+configuration:
+  capability_configured: true

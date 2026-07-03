@@ -1,0 +1,394 @@
+{
+  "capability": {
+    "name": "product-definition",
+    "version": "1.1.0",
+    "instance_id": "pro-20260703-qtzibu",
+    "sdlc_phase": "discovery"
+  },
+  "session_name": "product-definition0010307",
+  "status": "in_progress",
+  "current_step": "prd-validation",
+  "current_step_index": 1,
+  "started_at": "2026-07-03T18:19:26.041Z",
+  "steps": {
+    "prd-creation": {
+      "status": "completed",
+      "notes": "",
+      "started_at": "2026-07-03T18:47:02.137Z",
+      "exec_log_latest_path": "C:\\QAx\\002\\workflow\\instances\\product-definition\\sessions\\product-definition0010307\\agent-run\\prd-creation__1783104424688-9vv9grl5.log",
+      "exec_log_latest_run_id": "1783104424688-9vv9grl5",
+      "exec_log_latest_model": "globant_dgx/GLM-4.6",
+      "exec_log_latest_started_at": "2026-07-03T18:47:04.688Z",
+      "completed_at": "2026-07-03T18:50:46.915Z",
+      "completed_by_user": true,
+      "outputs": {
+        "prd_output_path": "C:\\QAx\\002\\artifacts\\outputs\\product-definition"
+      },
+      "archetype": "synthesize",
+      "artifact_group_id": "f4258a42-5442-43b2-93f1-136a87231987",
+      "exec_log_latest_completed_at": "2026-07-03T18:50:46.899Z"
+    },
+    "prd-validation": {
+      "status": "completed",
+      "notes": "",
+      "started_at": "2026-07-03T18:50:46.935Z",
+      "review": {
+        "document_path": "artifacts\\outputs\\product-definition\\PRD-SPEC-RESEARCH-STARWARSLEGO-PRODUCTDEFINITION-20260703.md",
+        "review_started_at": "2026-07-03T18:51:35.503Z",
+        "review_id": "fa38ec78-c778-4257-a15a-e83e41d5c5ef",
+        "reviewed_at": "2026-07-03T18:55:04.216Z",
+        "validation_action": "Approved",
+        "operator_id": "claudiofeitosa2811@gmail.com"
+      },
+      "billing_state": "approved",
+      "completed_at": "2026-07-03T18:55:04.217Z",
+      "completed_by_user": true,
+      "outputs": {},
+      "archetype": "gate"
+    },
+    "backlog-epic-generation": {
+      "status": "in_progress",
+      "notes": "",
+      "started_at": "2026-07-03T18:55:04.219Z"
+    },
+    "epic-validation": {
+      "status": "pending",
+      "notes": ""
+    }
+  },
+  "navigation_history": [
+    {
+      "timestamp": "2026-07-03T18:19:26.041Z",
+      "action": "started_capability",
+      "step": "prd-creation"
+    },
+    {
+      "timestamp": "2026-07-03T18:35:49.414Z",
+      "action": "executed_step",
+      "step": "prd-creation",
+      "reason": "Step 'prd-creation' exited successfully but produced incomplete outputs:\n  - required output 'prd_output_path' does not exist on disk: ./artifacts/outputs/product-definition/prd",
+      "metrics": {
+        "duration_seconds": 970,
+        "model": "globant_dgx/GLM-4.6",
+        "executor": "coda-batch",
+        "token_usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cost_usd": 0
+        },
+        "started_at": "2026-07-03T18:19:39.018Z",
+        "succeeded": false
+      }
+    },
+    {
+      "timestamp": "2026-07-03T18:47:02.138Z",
+      "action": "reset_to_pending",
+      "step": "prd-creation"
+    },
+    {
+      "timestamp": "2026-07-03T18:50:46.910Z",
+      "action": "executed_step",
+      "step": "prd-creation",
+      "metrics": {
+        "duration_seconds": 222,
+        "model": "globant_dgx/GLM-4.6",
+        "executor": "coda-batch",
+        "token_usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cost_usd": 0
+        },
+        "started_at": "2026-07-03T18:47:04.688Z",
+        "succeeded": true
+      }
+    },
+    {
+      "timestamp": "2026-07-03T18:50:46.915Z",
+      "action": "completed_step",
+      "step": "prd-creation"
+    },
+    {
+      "timestamp": "2026-07-03T18:50:46.936Z",
+      "action": "navigated_forward",
+      "to_step": "prd-validation",
+      "from_step": "prd-creation"
+    },
+    {
+      "timestamp": "2026-07-03T18:55:04.217Z",
+      "action": "reviewed_step",
+      "step": "prd-validation",
+      "review": {
+        "document_path": "artifacts\\outputs\\product-definition\\PRD-SPEC-RESEARCH-STARWARSLEGO-PRODUCTDEFINITION-20260703.md",
+        "review_started_at": "2026-07-03T18:51:35.503Z",
+        "review_id": "fa38ec78-c778-4257-a15a-e83e41d5c5ef",
+        "reviewed_at": "2026-07-03T18:55:04.216Z",
+        "validation_action": "Approved",
+        "operator_id": "claudiofeitosa2811@gmail.com"
+      },
+      "review_action": "approve",
+      "review_operator_id": "claudiofeitosa2811@gmail.com",
+      "reason": "approve (validation_action=Approved, billing_state=approved)"
+    },
+    {
+      "timestamp": "2026-07-03T18:55:04.217Z",
+      "action": "completed_step",
+      "step": "prd-validation",
+      "review": {
+        "document_path": "artifacts\\outputs\\product-definition\\PRD-SPEC-RESEARCH-STARWARSLEGO-PRODUCTDEFINITION-20260703.md",
+        "review_started_at": "2026-07-03T18:51:35.503Z",
+        "review_id": "fa38ec78-c778-4257-a15a-e83e41d5c5ef",
+        "reviewed_at": "2026-07-03T18:55:04.216Z",
+        "validation_action": "Approved",
+        "operator_id": "claudiofeitosa2811@gmail.com"
+      }
+    }
+  ],
+  "configuration": {
+    "capability_configured": true
+  },
+  "parameters": {
+    "project_brief": "project-brief.md",
+    "project_name": "Projeto Star Wars Lego",
+    "input_folder": "./artifacts/inputs",
+    "output_folder": "./artifacts/outputs/product-definition",
+    "meeting_recording": "meetings",
+    "transcript_output": "transcripts",
+    "prd_template": "prd_template.md",
+    "legacy_docs_path": "./artifacts/outputs/legacy-insights",
+    "epics_output_path": "./artifacts/outputs/product-definition/epics",
+    "prd_output_path": "C:\\QAx\\002\\artifacts\\outputs\\product-definition"
+  },
+  "updated_at": "2026-07-03T18:55:04.235Z",
+  "archetype_summary": {
+    "by_archetype": {
+      "gate": {
+        "step_count": 2,
+        "billable_step_count": 0,
+        "raw": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cache_creation_tokens": 0,
+          "cache_read_tokens": 0,
+          "cost_usd": 0
+        },
+        "supervised_tokens": 0,
+        "billable_supervised_tokens": 0,
+        "held_supervised_tokens": 0,
+        "mode1_overhead": 0,
+        "mode1_overhead_cost_usd": 0,
+        "mode2_discarded": 0,
+        "mode2_discarded_cost_usd": 0,
+        "iteration_overhead": 0,
+        "iteration_overhead_cost_usd": 0,
+        "iteration_supervised_tokens": 0,
+        "iteration_billable_supervised_tokens": 0,
+        "iteration_billable_cost_usd": 0
+      },
+      "synthesize": {
+        "step_count": 1,
+        "billable_step_count": 1,
+        "raw": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cache_creation_tokens": 0,
+          "cache_read_tokens": 0,
+          "cost_usd": 0
+        },
+        "supervised_tokens": 0,
+        "billable_supervised_tokens": 0,
+        "held_supervised_tokens": 0,
+        "mode1_overhead": 0,
+        "mode1_overhead_cost_usd": 0,
+        "mode2_discarded": 0,
+        "mode2_discarded_cost_usd": 0,
+        "iteration_overhead": 0,
+        "iteration_overhead_cost_usd": 0,
+        "iteration_supervised_tokens": 0,
+        "iteration_billable_supervised_tokens": 0,
+        "iteration_billable_cost_usd": 0
+      },
+      "generate": {
+        "step_count": 1,
+        "billable_step_count": 0,
+        "raw": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cache_creation_tokens": 0,
+          "cache_read_tokens": 0,
+          "cost_usd": 0
+        },
+        "supervised_tokens": 0,
+        "billable_supervised_tokens": 0,
+        "held_supervised_tokens": 0,
+        "mode1_overhead": 0,
+        "mode1_overhead_cost_usd": 0,
+        "mode2_discarded": 0,
+        "mode2_discarded_cost_usd": 0,
+        "iteration_overhead": 0,
+        "iteration_overhead_cost_usd": 0,
+        "iteration_supervised_tokens": 0,
+        "iteration_billable_supervised_tokens": 0,
+        "iteration_billable_cost_usd": 0
+      },
+      "discover-internal": {
+        "step_count": 0,
+        "billable_step_count": 0,
+        "raw": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cache_creation_tokens": 0,
+          "cache_read_tokens": 0,
+          "cost_usd": 0
+        },
+        "supervised_tokens": 0,
+        "billable_supervised_tokens": 0,
+        "held_supervised_tokens": 0,
+        "mode1_overhead": 0,
+        "mode1_overhead_cost_usd": 0,
+        "mode2_discarded": 0,
+        "mode2_discarded_cost_usd": 0,
+        "iteration_overhead": 0,
+        "iteration_overhead_cost_usd": 0,
+        "iteration_supervised_tokens": 0,
+        "iteration_billable_supervised_tokens": 0,
+        "iteration_billable_cost_usd": 0
+      },
+      "discover-deliverable": {
+        "step_count": 0,
+        "billable_step_count": 0,
+        "raw": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cache_creation_tokens": 0,
+          "cache_read_tokens": 0,
+          "cost_usd": 0
+        },
+        "supervised_tokens": 0,
+        "billable_supervised_tokens": 0,
+        "held_supervised_tokens": 0,
+        "mode1_overhead": 0,
+        "mode1_overhead_cost_usd": 0,
+        "mode2_discarded": 0,
+        "mode2_discarded_cost_usd": 0,
+        "iteration_overhead": 0,
+        "iteration_overhead_cost_usd": 0,
+        "iteration_supervised_tokens": 0,
+        "iteration_billable_supervised_tokens": 0,
+        "iteration_billable_cost_usd": 0
+      },
+      "review": {
+        "step_count": 0,
+        "billable_step_count": 0,
+        "raw": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cache_creation_tokens": 0,
+          "cache_read_tokens": 0,
+          "cost_usd": 0
+        },
+        "supervised_tokens": 0,
+        "billable_supervised_tokens": 0,
+        "held_supervised_tokens": 0,
+        "mode1_overhead": 0,
+        "mode1_overhead_cost_usd": 0,
+        "mode2_discarded": 0,
+        "mode2_discarded_cost_usd": 0,
+        "iteration_overhead": 0,
+        "iteration_overhead_cost_usd": 0,
+        "iteration_supervised_tokens": 0,
+        "iteration_billable_supervised_tokens": 0,
+        "iteration_billable_cost_usd": 0
+      },
+      "transform": {
+        "step_count": 0,
+        "billable_step_count": 0,
+        "raw": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cache_creation_tokens": 0,
+          "cache_read_tokens": 0,
+          "cost_usd": 0
+        },
+        "supervised_tokens": 0,
+        "billable_supervised_tokens": 0,
+        "held_supervised_tokens": 0,
+        "mode1_overhead": 0,
+        "mode1_overhead_cost_usd": 0,
+        "mode2_discarded": 0,
+        "mode2_discarded_cost_usd": 0,
+        "iteration_overhead": 0,
+        "iteration_overhead_cost_usd": 0,
+        "iteration_supervised_tokens": 0,
+        "iteration_billable_supervised_tokens": 0,
+        "iteration_billable_cost_usd": 0
+      },
+      "excursion": {
+        "step_count": 0,
+        "billable_step_count": 0,
+        "raw": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cache_creation_tokens": 0,
+          "cache_read_tokens": 0,
+          "cost_usd": 0
+        },
+        "supervised_tokens": 0,
+        "billable_supervised_tokens": 0,
+        "held_supervised_tokens": 0,
+        "mode1_overhead": 0,
+        "mode1_overhead_cost_usd": 0,
+        "mode2_discarded": 0,
+        "mode2_discarded_cost_usd": 0,
+        "iteration_overhead": 0,
+        "iteration_overhead_cost_usd": 0,
+        "iteration_supervised_tokens": 0,
+        "iteration_billable_supervised_tokens": 0,
+        "iteration_billable_cost_usd": 0
+      },
+      "refinement": {
+        "step_count": 0,
+        "billable_step_count": 0,
+        "raw": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cache_creation_tokens": 0,
+          "cache_read_tokens": 0,
+          "cost_usd": 0
+        },
+        "supervised_tokens": 0,
+        "billable_supervised_tokens": 0,
+        "held_supervised_tokens": 0,
+        "mode1_overhead": 0,
+        "mode1_overhead_cost_usd": 0,
+        "mode2_discarded": 0,
+        "mode2_discarded_cost_usd": 0,
+        "iteration_overhead": 0,
+        "iteration_overhead_cost_usd": 0,
+        "iteration_supervised_tokens": 0,
+        "iteration_billable_supervised_tokens": 0,
+        "iteration_billable_cost_usd": 0
+      }
+    },
+    "totals": {
+      "supervised_tokens": 0,
+      "billable_supervised_tokens": 0,
+      "held_supervised_tokens": 0,
+      "cost_usd": 0,
+      "supervised_cost_usd": 0,
+      "billable_cost_usd": 0,
+      "mode1_overhead_supervised_tokens": 0,
+      "mode1_overhead_cost_usd": 0,
+      "mode2_discarded_supervised_tokens": 0,
+      "mode2_discarded_cost_usd": 0,
+      "iteration_overhead_supervised_tokens": 0,
+      "iteration_overhead_cost_usd": 0,
+      "iteration_supervised_tokens": 0,
+      "iteration_billable_supervised_tokens": 0,
+      "iteration_billable_cost_usd": 0,
+      "management_supervised_tokens": 0,
+      "management_cost_usd": 0
+    },
+    "audit_flags": [],
+    "last_computed_at": "2026-07-03T18:55:04.219Z"
+  }
+}

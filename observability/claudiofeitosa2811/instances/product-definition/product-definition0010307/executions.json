@@ -1,0 +1,42 @@
+[
+  {
+    "execution_id": "95659bd4-e1d2-462f-b740-f5db19f43119",
+    "step_id": "prd-creation",
+    "version_sequence": 1,
+    "session_name": "product-definition0010307",
+    "capability_name": "product-definition",
+    "started_at": "2026-07-03T18:19:39.018Z",
+    "completed_at": "2026-07-03T18:35:49.404Z",
+    "duration_seconds": 970,
+    "status": "Error_Format",
+    "request_type": "Generation",
+    "executor": "coda-batch",
+    "run_id": "1783102779018-av7yc5kw",
+    "model": "globant_dgx/GLM-4.6",
+    "token_usage": {
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    "error_message": "Step 'prd-creation' exited successfully but produced incomplete outputs:\n  - required output 'prd_output_path' does not exist on disk: ./artifacts/outputs/product-definition/prd"
+  },
+  {
+    "execution_id": "0641b525-e3a8-474f-ba17-b79ba1711185",
+    "step_id": "prd-creation",
+    "version_sequence": 2,
+    "session_name": "product-definition0010307",
+    "capability_name": "product-definition",
+    "started_at": "2026-07-03T18:47:04.688Z",
+    "completed_at": "2026-07-03T18:50:46.899Z",
+    "duration_seconds": 222,
+    "status": "Success",
+    "request_type": "Generation",
+    "executor": "coda-batch",
+    "run_id": "1783104424688-9vv9grl5",
+    "model": "globant_dgx/GLM-4.6",
+    "token_usage": {
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    "artifact_group_id": "f4258a42-5442-43b2-93f1-136a87231987"
+  }
+]

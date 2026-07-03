@@ -1,0 +1,24 @@
+{
+  "skill": "researching-prd",
+  "session_id": "RESEARCH-STARWARSLEGO-PRODUCTDEFINITION-20260703",
+  "status": "COMPLETED",
+  "started_at": "2026-07-03T15:25:00.000Z",
+  "completed_at": "2026-07-03T15:30:00.000Z",
+  "skeleton_written": true,
+  "sections": {
+    "scope": "complete",
+    "personas": "complete",
+    "functional_requirements": "complete",
+    "non_functional_requirements": "complete",
+    "kpis": "complete",
+    "jtbd": "complete",
+    "traceability": "complete",
+    "dependencies": "complete",
+    "risks": "complete",
+    "assumptions": "complete",
+    "constraints": "complete",
+    "mvp_phasing": "complete",
+    "glossary": "complete",
+    "open_questions": "complete"
+  }
+}
