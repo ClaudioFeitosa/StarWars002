@@ -1,0 +1,27 @@
+{
+  "session_id": "COMPLIANCE-PROJETOSTARWARSEGO-PRODUCT-DELIVERY010307-20260703",
+  "capability": "product-delivery",
+  "skill": "validating-architecture-compliance",
+  "status": "complete",
+  "mode": "BUILD",
+  "started_at": "2026-07-03T10:30:00.000Z",
+  "completed_at": "2026-07-03T10:45:00.000Z",
+  "compliance_spec_path": "C:\\QAx\\002\\artifacts\\outputs\\product-delivery\\architecture-compliance\\COMPLIANCE-SPEC-COMPLIANCE-PROJETOSTARWARSEGO-PRODUCT-DELIVERY010307-20260703.md",
+  "compliance_audit_path": "C:\\QAx\\002\\artifacts\\outputs\\product-delivery\\architecture-compliance\\COMPLIANCE-AUDIT-COMPLIANCE-PROJETOSTARWARSEGO-PRODUCT-DELIVERY010307-20260703.md",
+  "summary": {
+    "total_stories": 13,
+    "approved": 13,
+    "return_to_product": 0,
+    "initiate_adr": 0,
+    "total_gaps": 0,
+    "architecture_mode": "context_pack_fallback"
+  },
+  " Architectural_Sources": {
+    "arch_standards": "C:\\QAx\\002\\context-pack\\arch-standards.md",
+    "technical_requirements": "C:\\QAx\\002\\context-pack\\technical-requirements.md",
+    "best_practices": "C:\\QAx\\002\\context-pack\\best-practices.md",
+    "coding_standards": "C:\\QAx\\002\\context-pack\\coding-standards.md"
+  },
+  "quality_gates_passed": 10,
+  "quality_gates_total": 10
+}

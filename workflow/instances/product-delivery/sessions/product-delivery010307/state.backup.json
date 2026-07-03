@@ -64,27 +64,18 @@
       "exec_log_latest_completed_at": "2026-07-03T20:19:35.832Z"
     },
     "architecture-compliance-validation": {
-      "status": "completed",
+      "status": "in_progress",
       "notes": "",
       "started_at": "2026-07-03T20:19:35.903Z",
       "review": {
         "document_path": "artifacts\\outputs\\product-delivery\\architecture-compliance\\COMPLIANCE-SPEC-COMPLIANCE-PROJETOSTARWARSEGO-PRODUCT-DELIVERY010307-20260703.md",
         "review_started_at": "2026-07-03T20:26:47.337Z",
-        "review_id": "6c904c1c-00af-4916-b497-6fe50fd97330",
-        "reviewed_at": "2026-07-03T20:27:29.766Z",
-        "validation_action": "Approved",
-        "operator_id": "claudiofeitosa2811@gmail.com"
-      },
-      "billing_state": "approved",
-      "completed_at": "2026-07-03T20:27:29.766Z",
-      "completed_by_user": true,
-      "outputs": {},
-      "archetype": "gate"
+        "review_id": "6c904c1c-00af-4916-b497-6fe50fd97330"
+      }
     },
     "platform-export": {
-      "status": "in_progress",
-      "notes": "",
-      "started_at": "2026-07-03T20:27:29.773Z"
+      "status": "pending",
+      "notes": ""
     },
     "platform-export-validation": {
       "status": "pending",
@@ -183,35 +174,6 @@
       "action": "navigated_forward",
       "to_step": "architecture-compliance-validation",
       "from_step": "validating-architecture-compliance"
-    },
-    {
-      "timestamp": "2026-07-03T20:27:29.766Z",
-      "action": "reviewed_step",
-      "step": "architecture-compliance-validation",
-      "review": {
-        "document_path": "artifacts\\outputs\\product-delivery\\architecture-compliance\\COMPLIANCE-SPEC-COMPLIANCE-PROJETOSTARWARSEGO-PRODUCT-DELIVERY010307-20260703.md",
-        "review_started_at": "2026-07-03T20:26:47.337Z",
-        "review_id": "6c904c1c-00af-4916-b497-6fe50fd97330",
-        "reviewed_at": "2026-07-03T20:27:29.766Z",
-        "validation_action": "Approved",
-        "operator_id": "claudiofeitosa2811@gmail.com"
-      },
-      "review_action": "approve",
-      "review_operator_id": "claudiofeitosa2811@gmail.com",
-      "reason": "approve (validation_action=Approved, billing_state=approved)"
-    },
-    {
-      "timestamp": "2026-07-03T20:27:29.766Z",
-      "action": "completed_step",
-      "step": "architecture-compliance-validation",
-      "review": {
-        "document_path": "artifacts\\outputs\\product-delivery\\architecture-compliance\\COMPLIANCE-SPEC-COMPLIANCE-PROJETOSTARWARSEGO-PRODUCT-DELIVERY010307-20260703.md",
-        "review_started_at": "2026-07-03T20:26:47.337Z",
-        "review_id": "6c904c1c-00af-4916-b497-6fe50fd97330",
-        "reviewed_at": "2026-07-03T20:27:29.766Z",
-        "validation_action": "Approved",
-        "operator_id": "claudiofeitosa2811@gmail.com"
-      }
     }
   ],
   "configuration": {
@@ -235,7 +197,7 @@
     "compliance_output_path": "./artifacts/outputs/product-delivery/architecture-compliance",
     "story_scope": "all"
   },
-  "updated_at": "2026-07-03T20:27:29.797Z",
+  "updated_at": "2026-07-03T20:26:47.359Z",
   "archetype_summary": {
     "by_archetype": {
       "gate": {
@@ -466,6 +428,6 @@
       "management_cost_usd": 0
     },
     "audit_flags": [],
-    "last_computed_at": "2026-07-03T20:27:29.774Z"
+    "last_computed_at": "2026-07-03T20:19:35.906Z"
   }
 }
