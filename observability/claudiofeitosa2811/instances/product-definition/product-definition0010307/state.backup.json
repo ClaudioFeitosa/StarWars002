@@ -66,7 +66,12 @@
     "epic-validation": {
       "status": "in_progress",
       "notes": "",
-      "started_at": "2026-07-03T19:18:00.615Z"
+      "started_at": "2026-07-03T19:18:00.615Z",
+      "review": {
+        "document_path": "artifacts\\outputs\\product-definition\\epics\\EPICS-SPEC-EPICS-STARWARSLEGO-PRODUCTDEFINITION-20260703.md",
+        "review_started_at": "2026-07-03T19:24:34.119Z",
+        "review_id": "8d6f2988-1461-426b-ae34-c82f4d8cf0ca"
+      }
     }
   },
   "navigation_history": [
@@ -169,7 +174,8 @@
           "cost_usd": 0
         },
         "started_at": "2026-07-03T19:04:19.283Z",
-        "succeeded": true
+        "succeeded": true,
+        "items_spawned": 2
       }
     },
     {
@@ -199,7 +205,7 @@
     "epics_output_path": "C:\\QAx\\002\\artifacts\\outputs\\product-definition\\epics",
     "prd_output_path": "C:\\QAx\\002\\artifacts\\outputs\\product-definition"
   },
-  "updated_at": "2026-07-03T19:18:00.635Z",
+  "updated_at": "2026-07-03T19:24:34.136Z",
   "archetype_summary": {
     "by_archetype": {
       "gate": {

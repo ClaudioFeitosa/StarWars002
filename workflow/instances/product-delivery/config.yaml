@@ -1,0 +1,21 @@
+capability: product-delivery
+version: 1.3.0
+parameters:
+  project_name: Projeto Star Wars Lego
+  epics_input_path: ./artifacts/outputs/product-definition/epics
+  delivery_platform: csv-file
+  export_scope: all
+  input_folder: ./artifacts/inputs
+  output_folder: ./artifacts/outputs/product-delivery
+  prd_input_path: ./artifacts/outputs/product-definition/prd
+  target_architecture_input_path: ./artifacts/outputs/software-architecture/target-architecture
+  adr_input_path: ./artifacts/outputs/software-architecture/adrs
+  dtr_input_path: ./artifacts/outputs/software-architecture/dtr
+  transcript_output_path: ./artifacts/inputs/transcripts
+  quality_criteria_path: ./criteria/stories-criteria.md
+  user_stories_output_path: ./artifacts/outputs/product-delivery/user-stories
+  platform_export_output_path: ./artifacts/outputs/product-delivery/platform-export
+  compliance_output_path: ./artifacts/outputs/product-delivery/architecture-compliance
+  story_scope: all
+configuration:
+  capability_configured: true

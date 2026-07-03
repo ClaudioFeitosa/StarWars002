@@ -6,9 +6,9 @@
     "artifact_type": "EPICS-AUDIT-EPICS-STARWARSLEGO-PRODUCTDEFINITION-20260703",
     "artifact_name": "artifacts\\outputs\\product-definition\\epics\\EPICS-AUDIT-EPICS-STARWARSLEGO-PRODUCTDEFINITION-20260703.md",
     "current_version": 1,
-    "status": "Draft",
+    "status": "Approved",
     "created_at": "2026-07-03T19:18:00.592Z",
-    "updated_at": "2026-07-03T19:18:00.592Z",
+    "updated_at": "2026-07-03T19:26:19.169Z",
     "step_id": "backlog-epic-generation",
     "session_name": "product-definition0010307",
     "capability_name": "product-definition"
@@ -20,9 +20,9 @@
     "artifact_type": "EPICS-SPEC-EPICS-STARWARSLEGO-PRODUCTDEFINITION-20260703",
     "artifact_name": "artifacts\\outputs\\product-definition\\epics\\EPICS-SPEC-EPICS-STARWARSLEGO-PRODUCTDEFINITION-20260703.md",
     "current_version": 1,
-    "status": "Draft",
+    "status": "Approved",
     "created_at": "2026-07-03T19:18:00.608Z",
-    "updated_at": "2026-07-03T19:18:00.608Z",
+    "updated_at": "2026-07-03T19:26:19.170Z",
     "step_id": "backlog-epic-generation",
     "session_name": "product-definition0010307",
     "capability_name": "product-definition"
